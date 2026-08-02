@@ -110,14 +110,7 @@ manthan@github:~$ git log --oneline -3
 </a>
 </p>
 
-<!--
-🐍 Want an animated snake eating your contribution graph right here?
-1. Add the included snake.yml to .github/workflows/snake.yml in this repo
-2. Settings → Actions → General → Workflow permissions →
-   select "Read and write permissions" → Save
-3. Actions tab → "Generate Snake Animation" → Run workflow (once, manually)
-4. Remove the comment-marker lines this note sits between (the very top
-   and very bottom lines of this note) so the block below goes live
+
 
 <p align="center">
 <picture>
@@ -126,7 +119,7 @@ manthan@github:~$ git log --oneline -3
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/main/dist/github-snake.svg" width="100%"/>
 </picture>
 </p>
--->
+
 
 <br/>
 
