@@ -90,7 +90,7 @@ manthan@github:~$ git log --oneline -3
 <h2 align="center">🏆&nbsp; Trophy Case</h2>
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=coder-manthan-007&theme=radical&no-frame=true&column=7&margin-w=10&margin-h=10" alt="trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=coder-manthan-007&theme=radical&no-frame=true&column=7&margin-w=10&margin-h=10" alt="trophies" />
 </p>
 
 <p align="center"><sub><i>these level up as I keep building — check back often 👀</i></sub></p>
@@ -101,13 +101,15 @@ manthan@github:~$ git log --oneline -3
 
 <h2 align="center">🚀&nbsp; Featured Projects</h2>
 
+## 🚀 Featured Projects
+
 <p align="center">
-<a href="https://github.com/coder-manthan-007/Flux-App">
-<img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=coder-manthan-007&repo=Flux-App&theme=radical&hide_border=true" alt="Flux-App"/>
-</a>
-<a href="https://github.com/coder-manthan-007/MY-LeetCode">
-<img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=coder-manthan-007&repo=MY-LeetCode&theme=radical&hide_border=true" alt="MY-LeetCode"/>
-</a>
+  <a href="https://github.com/coder-manthan-007/Flux-App">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coder-manthan-007&repo=Flux-App&theme=radical&hide_border=true" alt="Flux-App" />
+  </a>
+  <a href="https://github.com/coder-manthan-007/MY-LeetCode">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coder-manthan-007&repo=MY-LeetCode&theme=radical&hide_border=true" alt="MY-LeetCode" />
+  </a>
 </p>
 
 
