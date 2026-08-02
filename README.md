@@ -64,55 +64,53 @@ manthan@github:~$ git log --oneline -3
 
 <p align="center"><sub>✏️ Learning something new? Grab more badges at <a href="https://github.com/Ileriayo/markdown-badges">markdown-badges</a> and drop them right in</sub></p>
 
-<br/>
+<br />
 
 ---
 
-<h2 align="center">📊&nbsp; GitHub Stats</h2>
+<h2 align="center">📊 &nbsp; GitHub Stats</h2>
 
 <p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=coder-manthan-007&show_icons=true&theme=radical&hide_border=true" alt="stats"/>
-<img width="49%" src="https://streak-stats.demolab.com/?user=coder-manthan-007&theme=radical&hide_border=true" alt="streak"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=coder-manthan-007&show_icons=true&theme=radical&hide_border=true" alt="stats" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=coder-manthan-007&theme=radical&hide_border=true" alt="streak" />
 </p>
 
 <p align="center">
-<img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-manthan-007&layout=compact&theme=radical&hide_border=true" alt="top languages"/>
+  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-manthan-007&layout=compact&theme=radical&hide_border=true" alt="top languages" />
 </p>
 
 <p align="center">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=coder-manthan-007&theme=react-dark&hide_border=true" alt="activity graph"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=coder-manthan-007&theme=react-dark&hide_border=true" alt="activity graph" />
 </p>
 
-<br/>
+<br />
 
 ---
 
-<h2 align="center">🏆&nbsp; Trophy Case</h2>
+<h2 align="center">🏆 &nbsp; Trophy Case</h2>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=coder-manthan-007&theme=radical&no-frame=true&column=7&margin-w=10&margin-h=10" alt="trophies" />
 </p>
 
-<p align="center"><sub><i>these level up as I keep building — check back often 👀</i></sub></p>
+<p align="center">
+  <sub><i>these level up as I keep building — check back often 👀</i></sub>
+</p>
 
-<br/>
+<br />
 
 ---
 
-<h2 align="center">🚀&nbsp; Featured Projects</h2>
-
-## 🚀 Featured Projects
+<h2 align="center">🚀 &nbsp; Featured Projects</h2>
 
 <p align="center">
   <a href="https://github.com/coder-manthan-007/Flux-App">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coder-manthan-007&repo=Flux-App&theme=radical&hide_border=true" alt="Flux-App" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=coder-manthan-007&repo=Flux-App&theme=radical&hide_border=true" alt="Flux-App" />
   </a>
   <a href="https://github.com/coder-manthan-007/MY-LeetCode">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=coder-manthan-007&repo=MY-LeetCode&theme=radical&hide_border=true" alt="MY-LeetCode" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=coder-manthan-007&repo=MY-LeetCode&theme=radical&hide_border=true" alt="MY-LeetCode" />
   </a>
 </p>
-
-
 
 <p align="center">
   <picture>
@@ -122,11 +120,9 @@ manthan@github:~$ git log --oneline -3
   </picture>
 </p>
 
-
-<br/>
+<br />
 
 ---
-
 <h2 align="center">🌐&nbsp; Connect With Me</h2>
 
 
