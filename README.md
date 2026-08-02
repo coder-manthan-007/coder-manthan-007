@@ -113,11 +113,11 @@ manthan@github:~$ git log --oneline -3
 
 
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/main/dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/main/dist/github-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/main/dist/github-snake.svg" width="100%"/>
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/output/github-snake.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/output/github-snake.svg" width="100%"/>
+  </picture>
 </p>
 
 
