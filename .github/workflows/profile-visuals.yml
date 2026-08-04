@@ -1,56 +1,20 @@
-# 🎨 Profile Visuals
-# Generates two things and commits them straight into this repo:
-#   1. profile-3d-contrib/*.svg   → a rotating 3D contribution calendar
-#   2. dist/github-snake*.svg     → a snake that eats your contribution graph
-#
-# SETUP (do this once):
-#   1. Save this file at:  .github/workflows/profile-visuals.yml
-#   2. Go to Settings → Actions → General → Workflow permissions
-#      → select "Read and write permissions" → Save
-#   3. Go to Actions tab → "Update Profile Visuals" → "Run workflow"
-#   4. Wait ~2-3 minutes for completion (watch the logs)
-#   5. Check your repo for new folders: profile-3d-contrib/ and dist/
-#   6. In README.md, find the line with "BONUS VISUALS" and uncomment
-#      by removing the opening <!-- and closing --> markers
-#   7. Refresh your GitHub profile — 3D calendar + snake should be live!
-#
-# After first run, both images auto-refresh daily at midnight UTC.
-
 name: Update Profile Visuals
 
 on:
   schedule:
-    - cron: "0 0 * * *"          # every day at midnight UTC
-  workflow_dispatch:              # manual trigger button in Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
-  actions: read
 
 jobs:
   generate:
-    name: Generate 3D Calendar & Snake
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    
     steps:
-      - name: 📥 Check out repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v3
 
-      - name: 📁 Create output directories
-        run: |
-          mkdir -p profile-3d-contrib
-          mkdir -p dist
-          echo "Directories created successfully"
-
-      - name: 🧊 Generate 3D contribution calendar
-        uses: yoshi389111/github-profile-3d-contrib@release/v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: 🐍 Generate contribution snake
+      - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -58,37 +22,10 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: ✅ Verify generated files
+      - name: Push changes
         run: |
-          echo "Checking for generated files..."
-          ls -la profile-3d-contrib/ 2>/dev/null || echo "⚠️  profile-3d-contrib folder might be processing"
-          ls -la dist/ 2>/dev/null || echo "⚠️  dist folder might be processing"
-          echo "File generation step complete"
-
-      - name: 🔧 Configure Git
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git config --list | grep user
-
-      - name: 📤 Add, commit & push changes
-        run: |
-          git status
-          git add -A profile-3d-contrib/ dist/ 2>/dev/null || true
-          if git diff --cached --quiet; then
-            echo "No changes to commit (images already up to date)"
-          else
-            echo "Committing new/updated images..."
-            git commit -m "🔄 update profile visuals - $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
-            git push origin HEAD:${{ github.ref }}
-            echo "✅ Successfully pushed changes"
-          fi
-
-      - name: 📊 Final status
-        run: |
-          echo "=== Workflow Complete ==="
-          echo "✅ 3D calendar generated"
-          echo "✅ Snake animation generated"
-          echo "✅ Changes committed and pushed"
-          echo ""
-          echo "Next: Uncomment the BONUS VISUALS block in README.md"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add dist/
+          git commit -m "update snake" || echo "No changes"
+          git push || echo "Nothing to push"
