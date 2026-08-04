@@ -1,13 +1,3 @@
-<!--
-  👋 Quick setup notes (this comment is invisible on your live profile):
-  1. Create a new PUBLIC repository named EXACTLY: coder-manthan-007
-  2. Drop this file in at the repo root, named README.md
-  3. Swap the placeholder links in "Connect With Me" for your real ones
-  4. Want the rotating 3D calendar + the animated snake? See
-     profile-visuals.yml — one workflow powers both. Instructions are
-     inside that file, and also in the "Bonus Visuals" section below.
--->
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141321,50:6a3093,100:fe428e&height=250&section=header&text=Manthan%20Devi&fontSize=58&fontAlignY=35&animation=fadeIn&desc=Aspiring%20Developer%20%7C%20DSA%20Enthusiast%20%7C%20Building%20Flux-App&descAlign=50&descSize=18" width="100%" alt="header banner"/>
@@ -25,40 +15,19 @@
 
 <br/>
 
-<h2 align="center">🧭&nbsp; About Me</h2>
+<h2 align="center">🧭 About Me</h2>
 
-- 🔭 Currently building **[Flux-App](https://github.com/coder-manthan-007/Flux-App)** — a TypeScript-powered timetable app built to make everyday scheduling less chaotic
-- 🌱 Deep in the **Data Structures & Algorithms grind**, logging daily progress in C++ over on **[MY-LeetCode](https://github.com/coder-manthan-007/MY-LeetCode)**
-- 👯 Open to collaborating on beginner-friendly & open-source projects — let's build something together
-- 💬 Ask me about C++, TypeScript, or how to survive a daily DSA streak
-- 📫 Reach me at: *(swap this for your email or LinkedIn — see Connect With Me below 👇)*
-- ⚡ Fun fact: my commit messages go `fix` → `final fix` → `final fix v2` → it works now, don't ask
-
-<br/>
-
-<details>
-<summary>💻 <b>Peek into my terminal</b></summary>
-
-```bash
-manthan@github:~$ whoami
-> Manthan Devi — builder, debugger, full-time LeetCode grinder
-
-manthan@github:~$ cat current_focus.txt
-> Mastering DSA · Shipping real projects · Learning something new every day
-
-manthan@github:~$ git log --oneline -3
-> 🔥 keep the streak alive
-> 🐛 fixed the bug from yesterday
-> ✨ it works and I have no idea why
-```
-
-</details>
+- 🔭 Building **[Flux-App](https://github.com/coder-manthan-007/Flux-App)** — TypeScript timetable app
+- 🌱 Daily DSA grind in C++ — check out **[MY-LeetCode](https://github.com/coder-manthan-007/MY-LeetCode)**
+- 👯 Open to collaborating on projects
+- 💬 Ask me about C++, TypeScript, or DSA
+- ⚡ Fun fact: `fix` → `final fix` → `final fix v2` → it actually works now
 
 <br/>
 
 ---
 
-<h2 align="center">🛠️&nbsp; Tech Stack</h2>
+<h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
@@ -72,13 +41,11 @@ manthan@github:~$ git log --oneline -3
 <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
 </p>
 
-<p align="center"><sub>✏️ Learning something new? Grab more badges at <a href="https://github.com/Ileriayo/markdown-badges">markdown-badges</a> and drop them right in</sub></p>
-
 <br/>
 
 ---
 
-<h2 align="center">📊&nbsp; GitHub Stats</h2>
+<h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=coder-manthan-007&show_icons=true&theme=radical&hide_border=true" alt="stats"/>
@@ -86,7 +53,7 @@ manthan@github:~$ git log --oneline -3
 </p>
 
 <p align="center">
-<img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-manthan-007&layout=compact&theme=radical&hide_border=true" alt="top languages"/>
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-manthan-007&layout=compact&theme=radical&hide_border=true" alt="top languages"/>
 </p>
 
 <p align="center">
@@ -97,19 +64,17 @@ manthan@github:~$ git log --oneline -3
 
 ---
 
-<h2 align="center">🏆&nbsp; Trophy Case</h2>
+<h2 align="center">🏆 Trophy Case</h2>
 
 <p align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=coder-manthan-007&theme=radical&no-frame=true&column=7&margin-w=10&margin-h=10" alt="trophies"/>
 </p>
 
-<p align="center"><sub><i>these level up as I keep building — check back often 👀</i></sub></p>
-
 <br/>
 
 ---
 
-<h2 align="center">🚀&nbsp; Featured Projects</h2>
+<h2 align="center">🚀 Featured Projects</h2>
 
 <p align="center">
 <a href="https://github.com/coder-manthan-007/Flux-App">
@@ -120,41 +85,22 @@ manthan@github:~$ git log --oneline -3
 </a>
 </p>
 
-
-  
-
-<h2 align="center">🧊&nbsp; Bonus Visuals</h2>
-
-<p align="center">
-<img alt="3D contribution calendar" src="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
-</p>
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/main/dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/main/dist/github-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/main/dist/github-snake.svg" width="100%"/>
-</picture>
-</p>
-
-<p align="center"><sub><i>Prefer a different 3D style? Swap "profile-night-rainbow" in the image link above for "profile-green-animate", "profile-gitblock", "profile-season-animate", or others — full list of names is inside profile-visuals.yml</i></sub></p>
-
-
 <br/>
 
 ---
 
-<h2 align="center">🌐&nbsp; Connect With Me</h2>
-
+<h2 align="center">🌐 Connect With Me</h2>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/manthan-devi-8764a3386/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://x.com/D_Manthan_28"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-<a href="https://www.instagram.com/devimanthan/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="[https://linkedin.com/in/your-profile](https://www.linkedin.com/in/manthan-devi-8764a3386/)"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="[https://twitter.com/your-handle](https://x.com/D_Manthan_28)"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+<a href="[https://instagram.com/your-handle](https://www.instagram.com/devimanthan/)"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
 <a href="manthanmdevi@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-<p align="center"><sub>Thanks for stopping by — drop a ⭐ on a repo you liked, or just say hi 👋</sub></p>
+<br/>
+
+<p align="center"><sub>Thanks for visiting! Drop a ⭐ on a repo if you liked it 👋</sub></p>
 
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:fe428e,100:141321&height=120&section=footer" width="100%" alt="footer"/>
