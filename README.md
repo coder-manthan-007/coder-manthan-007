@@ -1,13 +1,3 @@
-<!--
-  👋 Quick setup notes (this comment is invisible on your live profile):
-  1. Create a new PUBLIC repository named EXACTLY: coder-manthan-007
-  2. Drop this file in at the repo root, named README.md
-  3. Swap the placeholder links in "Connect With Me" for your real ones
-  4. Want the rotating 3D calendar + the animated snake? See
-     profile-visuals.yml — one workflow powers both. Instructions are
-     inside that file, and also in the "Bonus Visuals" section below.
--->
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141321,50:6a3093,100:fe428e&height=250&section=header&text=Manthan%20Devi&fontSize=58&fontAlignY=35&animation=fadeIn&desc=Aspiring%20Developer%20%7C%20DSA%20Enthusiast%20%7C%20Building%20Flux-App&descAlign=50&descSize=18" width="100%" alt="header banner"/>
@@ -39,7 +29,7 @@
 <details>
 <summary>💻 <b>Peek into my terminal</b></summary>
 
-```bash
+
 manthan@github:~$ whoami
 > Manthan Devi — builder, debugger, full-time LeetCode grinder
 
@@ -50,7 +40,7 @@ manthan@github:~$ git log --oneline -3
 > 🔥 keep the streak alive
 > 🐛 fixed the bug from yesterday
 > ✨ it works and I have no idea why
-```
+
 
 </details>
 
@@ -136,9 +126,6 @@ manthan@github:~$ git log --oneline -3
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/coder-manthan-007/coder-manthan-007/main/dist/github-snake.svg" width="100%"/>
 </picture>
 </p>
-
-<p align="center"><sub><i>Prefer a different 3D style? Swap "profile-night-rainbow" in the image link above for "profile-green-animate", "profile-gitblock", "profile-season-animate", or others — full list of names is inside profile-visuals.yml</i></sub></p>
-
 
 <br/>
 
