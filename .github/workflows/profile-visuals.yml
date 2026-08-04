@@ -1,3 +1,21 @@
+# 🎨 Profile Visuals
+# Generates two things and commits them straight into this repo:
+#   1. profile-3d-contrib/*.svg   → a rotating 3D contribution calendar
+#   2. dist/github-snake*.svg     → a snake that eats your contribution graph
+#
+# SETUP (do this once):
+#   1. Save this file at:  .github/workflows/profile-visuals.yml
+#   2. Go to Settings → Actions → General → Workflow permissions
+#      → select "Read and write permissions" → Save
+#   3. Go to Actions tab → "Update Profile Visuals" → "Run workflow"
+#   4. Wait ~2-3 minutes for completion (watch the logs)
+#   5. Check your repo for new folders: profile-3d-contrib/ and dist/
+#   6. In README.md, find the line with "BONUS VISUALS" and uncomment
+#      by removing the opening <!-- and closing --> markers
+#   7. Refresh your GitHub profile — 3D calendar + snake should be live!
+#
+# After first run, both images auto-refresh daily at midnight UTC.
+
 name: Update Profile Visuals
 
 on:
@@ -17,7 +35,7 @@ jobs:
     
     steps:
       - name: 📥 Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
@@ -28,10 +46,7 @@ jobs:
           echo "Directories created successfully"
 
       - name: 🧊 Generate 3D contribution calendar
-        uses: yoshi389111/github-profile-3d-contrib@latest
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          max_repos: 100
+        uses: yoshi389111/github-profile-3d-contrib@release/v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
