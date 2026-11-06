@@ -1,11 +1,11 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141321,50:6a3093,100:fe428e&height=260&section=header&text=Manthan%20Devi&fontSize=62&fontAlignY=36&animation=fadeIn&desc=Full-Stack%20Software%20Engineer%20%7C%20C%2B%2B%20%26%20Next.js%20Specialist%20%7C%20Agentic%20AI&descAlign=52&descSize=19" width="100%" alt="Manthan Devi - Profile Header"/>
+<!-- Self-Hosted Zero-Failure Hero Banner -->
+<img src="./assets/header-banner.svg" width="100%" alt="Manthan Devi - Profile Header"/>
 
 <!-- Dynamic Animated Typing SVG -->
 <a href="https://github.com/coder-manthan-007">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=FE428E&center=true&vCenter=true&width=750&lines=Hi+there!+I'm+Manthan+Devi+%F0%9F%91%8B;Full-Stack+Engineer+%7C+C%2B%2B%2C+Next.js+%26+PostgreSQL+%E2%9A%A1;Architecting+High-Performance+SaaS+%26+Agentic+AI+%F0%9F%A7%A0;Creator+of+Suraksha+Setu%2C+BearBull+%26+FLUX+%F0%9F%9A%80;4th+DAN+Black+Belt+%7C+International+Taekwondo+Athlete+%F0%9F%A5%8B;Maintaining+9.6+CGPA+%40+VIT+Pune+%F0%9F%8E%93" alt="Typing Header"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=FE428E&center=true&vCenter=true&width=750&lines=Hi+there!+I'm+Manthan+Devi+%F0%9F%91%8B;Full-Stack+Engineer+%7C+C%2B%2B%2C+Next.js+%26+PostgreSQL+%E2%9A%A1;Architecting+High-Performance+SaaS+%26+Agentic+AI+%F0%9F%A7%A0;Creator+of+Suraksha+Setu%2C+BearBull+%26+FLUX+%F0%9F%9A%80;4th+DAN+Black+Belt+%7C+International+Taekwondo+Athlete+%F0%9F%A5%8B;Maintaining+9.6+CGPA+%40+VIT+Pune+%F0%9F%8E%93" alt="Typing Header"/>
 </a>
 
 <br/>
@@ -275,12 +275,13 @@ Changes to be committed:
 
 <div align="center">
 
+<!-- Bulletproof Side-by-Side Stats Cards -->
 <table align="center" border="0">
   <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=coder-manthan-007&show_icons=true&theme=radical&hide_border=true&title_color=fe428e&icon_color=6a3093&text_color=ffffff&bg_color=141321" width="100%" alt="Manthan's GitHub Stats"/>
+    <td width="50%" align="center">
+      <img src="./assets/github-stats.svg" width="100%" alt="Manthan's GitHub Stats"/>
     </td>
-    <td width="50%">
+    <td width="50%" align="center">
       <img src="https://streak-stats.demolab.com/?user=coder-manthan-007&theme=radical&hide_border=true&ring=fe428e&fire=fe428e&currStreakLabel=fe428e&background=141321" width="100%" alt="Manthan's GitHub Streak"/>
     </td>
   </tr>
@@ -288,12 +289,8 @@ Changes to be committed:
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=coder-manthan-007&layout=compact&theme=radical&hide_border=true&title_color=fe428e&text_color=ffffff&bg_color=141321" width="58%" alt="Top Languages"/>
-
-<br/><br/>
-
-<!-- Interactive Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-manthan-007&theme=react-dark&hide_border=true&area=true&color=fe428e&line=6a3093&point=fe428e" width="100%" alt="Manthan's GitHub Activity Graph"/>
+<!-- Top Languages Card -->
+<img src="./assets/top-langs.svg" width="60%" alt="Top Languages"/>
 
 <br/><br/>
 
@@ -357,5 +354,5 @@ Software engineering at scale demands the same mental fortitude as elite athleti
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:fe428e,50:6a3093,100:141321&height=120&section=footer" width="100%" alt="Footer"/>
+  <img src="./assets/footer-banner.svg" width="100%" alt="Footer"/>
 </div>

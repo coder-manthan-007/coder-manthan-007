@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="320">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e0c18"/>
+      <stop offset="50%" stop-color="#141321"/>
+      <stop offset="100%" stop-color="#1b122c"/>
+    </linearGradient>
+    <linearGradient id="wavePrimary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6a3093" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#fe428e" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#8e2de2" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="waveSecondary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fe428e" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#6a3093" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4a00e0" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#ffffff"/>
+      <stop offset="80%" stop-color="#ff9ebb"/>
+      <stop offset="100%" stop-color="#fe428e"/>
+    </linearGradient>
+    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6a3093" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fe428e" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="320" fill="url(#bgGradient)"/>
+
+  <!-- Decorative Grid Dots -->
+  <g fill="#ffffff" opacity="0.08">
+    <circle cx="100" cy="50" r="2"/><circle cx="200" cy="50" r="2"/><circle cx="300" cy="50" r="2"/><circle cx="400" cy="50" r="2"/>
+    <circle cx="800" cy="50" r="2"/><circle cx="900" cy="50" r="2"/><circle cx="1000" cy="50" r="2"/><circle cx="1100" cy="50" r="2"/>
+    <circle cx="150" cy="90" r="2"/><circle cx="250" cy="90" r="2"/><circle cx="950" cy="90" r="2"/><circle cx="1050" cy="90" r="2"/>
+    <circle cx="100" cy="130" r="2"/><circle cx="200" cy="130" r="2"/><circle cx="1000" cy="130" r="2"/><circle cx="1100" cy="130" r="2"/>
+  </g>
+
+  <!-- Background Accent Watermark -->
+  <text x="600" y="200" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="140" font-weight="900" fill="#fe428e" opacity="0.03" text-anchor="middle" letter-spacing="8">&lt;CODE /&gt;</text>
+
+  <!-- Secondary Background Wave -->
+  <path d="M0,230 C250,280 450,190 700,240 C950,290 1100,210 1200,235 L1200,320 L0,320 Z" fill="url(#waveSecondary)"/>
+
+  <!-- Primary Foreground Wave -->
+  <path d="M0,250 C200,210 400,280 650,230 C900,180 1080,260 1200,245 L1200,320 L0,320 Z" fill="url(#wavePrimary)"/>
+
+  <!-- Top Credential Pill Badge -->
+  <g transform="translate(600, 52)">
+    <rect x="-260" y="-18" width="520" height="36" rx="18" fill="url(#badgeBg)" stroke="#fe428e" stroke-width="1.5" stroke-opacity="0.8"/>
+    <text x="0" y="5" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">
+      ⚡ VIT PUNE (9.6 CGPA) • 4TH DAN BLACK BELT • FULL-STACK SPECIALIST
+    </text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <text x="600" y="135" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="56" font-weight="900" fill="url(#nameGradient)" text-anchor="middle" letter-spacing="3" filter="url(#glow)">
+    MANTHAN DEVI
+  </text>
+
+  <!-- Subtitle Tagline -->
+  <text x="600" y="178" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#f5e6ff" text-anchor="middle" letter-spacing="1">
+    Full-Stack Software Engineer • Systems &amp; Agentic AI Specialist • C++ &amp; Next.js
+  </text>
+
+  <!-- Status / Philosophy Indicator -->
+  <g transform="translate(600, 212)">
+    <circle cx="-255" cy="-1" r="5" fill="#00ff88"/>
+    <circle cx="-255" cy="-1" r="9" fill="none" stroke="#00ff88" stroke-width="1" opacity="0.6"/>
+    <text x="-240" y="4" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#d1c4e9" text-anchor="start" letter-spacing="0.5">
+      Creator of Suraksha Setu, BearBull &amp; FLUX • Architecting High-Performance Distributed Systems
+    </text>
+  </g>
+</svg>
