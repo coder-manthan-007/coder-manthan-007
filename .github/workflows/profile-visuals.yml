@@ -2,6 +2,7 @@ name: Update Profile Visuals
 
 on:
   schedule:
+    # Runs at 00:00 UTC daily
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -11,9 +12,10 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: 📥 Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -22,7 +24,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate snake
+      - name: 🐍 Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -30,10 +32,13 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Push changes
+      - name: 🚀 Commit and push changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dist/
-          git commit -m "update snake" || echo "No changes"
-          git push || echo "Nothing to push"
+          if [ -d "profile-3d-contrib" ]; then
+            git add profile-3d-contrib/
+          fi
+          git commit -m "chore(visuals): update contribution snake & 3d calendar [skip ci]" || echo "No changes to commit"
+          git push origin main || echo "Nothing to push"
